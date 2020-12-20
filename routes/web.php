@@ -22,5 +22,4 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('blog.home');
 Route::resource('blog', BlogController::class);
 Route::get('/web', [App\Http\Controllers\AwalController::class, 'index']);
-Route::get('/category','CategoryController@index');
 
